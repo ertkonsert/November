@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj": {}
+    "C:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj": {}
   },
   "projects": {
-    "c:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj": {
+    "C:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj",
+        "projectUniqueName": "C:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj",
         "projectName": "novemberprojektet",
-        "projectPath": "c:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj",
+        "projectPath": "C:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\novemberprojektet.csproj",
         "packagesPath": "C:\\Users\\marta.agren\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\obj\\",
+        "outputPath": "C:\\Users\\marta.agren\\Desktop\\SSkol\\Programmering 2\\November\\novemberprojektet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

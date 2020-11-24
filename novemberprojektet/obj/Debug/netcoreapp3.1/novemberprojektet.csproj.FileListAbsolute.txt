@@ -11,3 +11,10 @@ C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bi
 C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.dll
 C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.pdb
 C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.genruntimeconfig.cache
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\Raylib-cs.dll
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libraylib.so
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libraylib.so
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\raylib.dll
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\raylib.dll
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.csproj.CopyComplete
