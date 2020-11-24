@@ -1,0 +1,13 @@
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.csprojAssemblyReference.cache
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.AssemblyInfoInputs.cache
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.AssemblyInfo.cs
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.csproj.CoreCompileInputs.cache
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\novemberprojektet.exe
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\novemberprojektet.deps.json
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\novemberprojektet.runtimeconfig.json
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\novemberprojektet.runtimeconfig.dev.json
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\novemberprojektet.dll
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\bin\Debug\netcoreapp3.1\novemberprojektet.pdb
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.dll
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.pdb
+C:\Users\marta.agren\Desktop\SSkol\Programmering 2\November\novemberprojektet\obj\Debug\netcoreapp3.1\novemberprojektet.genruntimeconfig.cache
