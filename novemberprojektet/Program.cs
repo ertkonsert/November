@@ -7,20 +7,43 @@ namespace novemberprojektet
     {
         static void Main(string[] args)
         {
-            //Jag har gjort variabler av fönsterstorlekarna så jag lätt kan ändra det sen
-            int windowSizeX = 1000;
-            int windowSizeY = 1000; 
-            Raylib.InitWindow(windowSizeX, windowSizeY, "Snek");
+            
+            Raylib.InitWindow(500, 500, "Snek");
+            Raylib.SetTargetFPS(60);
+            Color grassGreen = new Color(177, 245, 139, 255);
+            //Hade tänkt göra en pausskärm där man därifrån kan stänga spelet, därför
+            Raylib.SetExitKey(0);
+
+            Snake head = new Snake();
+
 
             while (!Raylib.WindowShouldClose())
             {
+                
+
+                SnakePiece.UpdateAll();
+
                 Raylib.BeginDrawing();
                 
-                Raylib.ClearBackground(Color.GREEN);
-      
-                Raylib.DrawCircle(100,100,100,Color.MAGENTA);
-      
+                Raylib.ClearBackground(grassGreen);
+                
+                
+
+
+                
+            
+
+                SnakePiece.DrawAll();
+                    
+                
                 Raylib.EndDrawing();
+
+
+                
+                
+                
+                
+      
             }
 
         }
