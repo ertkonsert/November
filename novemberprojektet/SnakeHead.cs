@@ -4,7 +4,7 @@ using Raylib_cs;
 
 namespace novemberprojektet
 {
-    public class Snake: SnakePiece
+    public class SnakeHead: SnakePiece
     {
         Rectangle head = new Rectangle(250, 250, 10, 10);
         public bool alive = true;
@@ -13,7 +13,7 @@ namespace novemberprojektet
         string direction = "up";
 
 
-        public Snake()
+        public SnakeHead()
         {
             pieces.Add(this);
 
@@ -24,8 +24,8 @@ namespace novemberprojektet
         }
 
 
-        float timerMaxValue = 0.5f;
-        float timerCurrentValue = 0.5f;
+        float timerMaxValue = 0.4f;
+        float timerCurrentValue = 0.4f;
 
 
         public override void Update()
@@ -37,29 +37,25 @@ namespace novemberprojektet
                timerCurrentValue = timerMaxValue;
             }
 
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT) == true && direction != "right")
+            if (Raylib.IsKeyPressed(KeyboardKey.KEY_LEFT) == true && direction != "right")
             {
                 direction = "left";
-                Raylib.DrawText("LEFT", 200,200,10, Color.BLACK);
             }
 
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT) == true && direction != "left")
+            if (Raylib.IsKeyPressed(KeyboardKey.KEY_RIGHT) == true && direction != "left")
             {
                 direction = "right";
-                Raylib.DrawText("right", 200,200,10, Color.BLACK);
 
             }
 
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_UP) == true && direction != "down")
+            if (Raylib.IsKeyPressed(KeyboardKey.KEY_UP) == true && direction != "down")
             {
                 direction = "up";
-                Raylib.DrawText("UP", 200,200,10, Color.BLACK);
             }
 
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN) == true && direction != "up")
+            if (Raylib.IsKeyPressed(KeyboardKey.KEY_DOWN) == true && direction != "up")
             {
                 direction = "down";
-                Raylib.DrawText("DOWN", 200,200,10, Color.BLACK);
             }
 
             
@@ -91,7 +87,10 @@ namespace novemberprojektet
             
         }
 
-
+        public void Grow()
+        {
+            
+        }
 
 
 

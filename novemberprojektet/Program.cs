@@ -14,7 +14,8 @@ namespace novemberprojektet
             //Hade tänkt göra en pausskärm där man därifrån kan stänga spelet, därför
             Raylib.SetExitKey(0);
 
-            Snake head = new Snake();
+            SnakeHead snek = new SnakeHead();
+            Food yum = new Food();
 
 
             while (!Raylib.WindowShouldClose())
@@ -31,7 +32,7 @@ namespace novemberprojektet
 
 
                 
-            
+                
 
                 SnakePiece.DrawAll();
                     
