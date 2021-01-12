@@ -6,7 +6,6 @@ namespace novemberprojektet
 {
     public class SnakeHead: SnakePiece
     {
-        Rectangle head = new Rectangle(250, 250, 10, 10);
         public bool alive = true;
         public float xMovement = 10f;
         public float yMovement = 10f;

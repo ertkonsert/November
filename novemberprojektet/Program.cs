@@ -21,7 +21,7 @@ namespace novemberprojektet
             while (!Raylib.WindowShouldClose())
             {
                 
-
+                yum.Update();
                 SnakePiece.UpdateAll();
 
                 Raylib.BeginDrawing();
