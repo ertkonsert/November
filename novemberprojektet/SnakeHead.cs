@@ -11,7 +11,7 @@ namespace novemberprojektet
         public float yMovement = 10f;
         string direction = "up";
 
-
+        //konstruktorn, skapar en liten fyrkant som är ormhuvudet och placerar den i mitten av spelfönstret
         public SnakeHead()
         {
             pieces.Add(this);
@@ -23,19 +23,23 @@ namespace novemberprojektet
         }
 
 
+        //timervariabler för att reglera ormens krälhastighet
         float timerMaxValue = 0.4f;
         float timerCurrentValue = 0.4f;
 
 
         public override void Update()
         {   
+            //kollar om det är dags att flytta på ormen
             timerCurrentValue -= Raylib.GetFrameTime();
             if (timerCurrentValue < 0)
             {
+                //kör Move() som flyttar på ormen och sedan resettas timern
                Move();
                timerCurrentValue = timerMaxValue;
             }
 
+            //if satser som kollar om man håller ned en av piltangenterna
             if (Raylib.IsKeyPressed(KeyboardKey.KEY_LEFT) == true && direction != "right")
             {
                 direction = "left";
@@ -61,8 +65,17 @@ namespace novemberprojektet
 
         }
 
+        //metod som flyttar på ormhuvudet
         public void Move()
         {
+            pieces[pieces.Count-1].piece.x = pieces[0].piece.x;
+                pieces[pieces.Count-1].piece.y = pieces[0].piece.y;
+                pieces.Insert(1, pieces[pieces.Count-1]);
+                pieces.RemoveAt(pieces.Count-1);
+            
+            
+            
+
             if (direction == "left")
             {
                 this.piece.x -= xMovement;
@@ -86,9 +99,12 @@ namespace novemberprojektet
             
         }
 
+        //metod som lägger till nya bitar på ormen
         public void Grow()
         {
+            SnakePiece newPiece = new SnakePiece(this.piece.x, this.piece.y);
             
+            Console.WriteLine(pieces[pieces.Count-1].piece.x);
         }
 
 

@@ -5,8 +5,9 @@ namespace novemberprojektet
 {
     public class Food
     {
-        Random generator = new Random(500);
+        Random generator = new Random();
         Rectangle piece = new Rectangle();
+        public SnakeHead head;
 
         public Food()
         {
@@ -19,9 +20,14 @@ namespace novemberprojektet
         
         public void Update()
         {
-            //Raylib.DrawRectangleRec(this.piece, Color.RED);
-            //bool eaten = Raylib.CheckCollisionPointRec(this.piece, piece));
-
+            Raylib.DrawRectangleRec(this.piece, Color.RED);
+            bool eaten = Raylib.CheckCollisionRecs(this.piece, head.piece);
+            if (eaten == true)
+            {
+                head.Grow();
+                this.piece.x = generator.Next(50)*10;
+                this.piece.y = generator.Next(50)*10;
+            }
             //kolla kollission med snakehead, if yes då kör grow annars inget
         }
 
