@@ -65,16 +65,17 @@ namespace novemberprojektet
 
         }
 
-        //metod som flyttar på ormhuvudet
+        //metod som flyttar på ormen
         public void Move()
         {
+            //flytta ormens kropp fram ett steg
             pieces[pieces.Count-1].piece.x = pieces[0].piece.x;
-                pieces[pieces.Count-1].piece.y = pieces[0].piece.y;
-                pieces.Insert(1, pieces[pieces.Count-1]);
-                pieces.RemoveAt(pieces.Count-1);
+            pieces[pieces.Count-1].piece.y = pieces[0].piece.y;
+            pieces.Insert(1, pieces[pieces.Count-1]);
+            pieces.RemoveAt(pieces.Count-1);
             
             
-            
+            //flytta huvudet
 
             if (direction == "left")
             {
@@ -108,7 +109,7 @@ namespace novemberprojektet
         }
 
 
-
+        
 
 
 

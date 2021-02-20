@@ -21,6 +21,7 @@ namespace novemberprojektet
         public void Update()
         {
             Raylib.DrawRectangleRec(this.piece, Color.RED);
+            //kolla kollission med snakehead, if yes då kör grow och spawna ny food annars inget
             bool eaten = Raylib.CheckCollisionRecs(this.piece, head.piece);
             if (eaten == true)
             {
@@ -28,7 +29,7 @@ namespace novemberprojektet
                 this.piece.x = generator.Next(50)*10;
                 this.piece.y = generator.Next(50)*10;
             }
-            //kolla kollission med snakehead, if yes då kör grow annars inget
+            
         }
 
 
